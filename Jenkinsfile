@@ -1,6 +1,6 @@
 node {
     docker.image('timbru31/node-alpine-git:16').inside('-p 3000:3000') {
-        withEnv(["GITHUB_REPOSITORY=aldybw/a428-cicd-labs"]) {
+        withEnv(["GITHUB_REPOSITORY=aldybw/a428-cicd-labs", 'PUBLIC_URL=https://aldybw.github.io/a428-cicd-labs']) {
             withCredentials([string(credentialsId: 'jenkins-github-token', variable: 'GITHUB_TOKEN')]) {
                 try {
                     stage('Build') {
