@@ -9,7 +9,7 @@ git config --global user.name "aldybw"
 # set the target repo
 git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
 # run gh-pages, please ensure the jenkins have the permission
-npx gh-pages --message '[skip ci] Updates' --dist build
+npx react-app --message '[skip ci] Updates' --dist build
 
 # echo 'The following "npm" command builds your Node.js/React application for'
 # echo 'production in the local "build" directory (i.e. within the'
