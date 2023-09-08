@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "https://aldybw.github.io/a428-cicd-labs/static/css/main.eeeddbdb.chunk.css",
-    "main.js": "https://aldybw.github.io/a428-cicd-labs/static/js/main.ff1ab55e.chunk.js",
-    "main.js.map": "https://aldybw.github.io/a428-cicd-labs/static/js/main.ff1ab55e.chunk.js.map",
+    "main.js": "https://aldybw.github.io/a428-cicd-labs/static/js/main.b0a3ae3b.chunk.js",
+    "main.js.map": "https://aldybw.github.io/a428-cicd-labs/static/js/main.b0a3ae3b.chunk.js.map",
     "runtime-main.js": "https://aldybw.github.io/a428-cicd-labs/static/js/runtime-main.af53ef5d.js",
     "runtime-main.js.map": "https://aldybw.github.io/a428-cicd-labs/static/js/runtime-main.af53ef5d.js.map",
     "static/js/2.278b1c87.chunk.js": "https://aldybw.github.io/a428-cicd-labs/static/js/2.278b1c87.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.af53ef5d.js",
     "static/js/2.278b1c87.chunk.js",
     "static/css/main.eeeddbdb.chunk.css",
-    "static/js/main.ff1ab55e.chunk.js"
+    "static/js/main.b0a3ae3b.chunk.js"
   ]
 }
