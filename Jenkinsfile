@@ -7,13 +7,18 @@ node {
                         checkout scm
                         sh 'npm install'
                     }
+
                     stage('Test') {
                         checkout scm
                         sh './jenkins/scripts/test.sh'
                     }
+
+                    stage('Manual Approve') {
+                        input message: 'Lanjutkan ke tahap Deploy? (Klik "Proceed" untuk melanjutkan eksekusi pipeline ke tahap Deploy atau "Abort" untuk menghentikan eksekusi pipeline)' 
+                    }
+                    
                     stage('Deploy') {
                         checkout scm
-                        input message: 'Lanjutkan ke tahap Deploy? (Klik "Proceed" untuk melanjutkan eksekusi pipeline ke tahap Deploy atau "Abort" untuk menghentikan eksekusi pipeline)' 
                         sh './jenkins/scripts/deliver.sh'
                         sleep time: 1, unit: 'MINUTES'
                         sh './jenkins/scripts/kill.sh'
