@@ -49,6 +49,7 @@ const App = () => {
           alignItems: "center",
           justifyContent: "center",
           fontSize: "300%",
+          marginTop: "30px",
           width: "100%",
           height: "100%",
         }}
