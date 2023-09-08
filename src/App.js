@@ -51,10 +51,9 @@ const App = () => {
           fontSize: "300%",
           width: "100%",
           height: "100%",
-          top: "-15%",
         }}
       >
-        Counter App
+        Example Counter App
         <div
           style={{
             fontSize: "120%",
@@ -71,8 +70,9 @@ const App = () => {
               position: "relative",
               top: "20vh",
               marginRight: "5px",
+              padding: "8px",
               backgroundColor: "green",
-              borderRadius: "8%",
+              borderRadius: "20px",
               color: "white",
             }}
             onClick={handleClick1}
@@ -85,8 +85,9 @@ const App = () => {
               position: "relative",
               top: "20vh",
               marginLeft: "5px",
+              padding: "8px",
               backgroundColor: "red",
-              borderRadius: "8%",
+              borderRadius: "20px",
               color: "white",
             }}
             onClick={handleClick2}
